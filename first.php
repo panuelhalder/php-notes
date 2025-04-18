@@ -1,8 +1,23 @@
 <?php echo
-"hello world...
-form bangladesh I am shimul"; //echo for display anything on browser;
+"hello world... form bangladesh I am shimul"; //echo for display anything on browser;
 
-$dosomething = "da";
+$do_something = "do something";
+
+echo "<br/>";
+
+echo $do_something;
+
+/* RULES:
+
+PHP line er seshe semi-colon (;) diye sesh korte hoy
+
+/*  
+TIPS
+Short tag (<?=  ?>) avoid kora uchit karon onk hosting eta support kore na
+
+Ideal : <php   ?>
+
+
 /*********  Customized PHP keyboard shortcut ***************/
 
 //      ctrl + P and type @ in the search bar = FInd all symble and term 
