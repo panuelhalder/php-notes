@@ -1,9 +1,8 @@
-<?php
-echo
+<?php echo
 "hello world...
-form  bangladesh"; //echo for display anything on browser;
+form bangladesh"; //echo for display anything on browser;
 
-
+$dosomething = "da";
 /*********  Customized PHP keyboard shortcut ***************/
 
 //      ctrl + P and type @ in the search bar = FInd all symble and term 
@@ -16,3 +15,6 @@ form  bangladesh"; //echo for display anything on browser;
 //      ctrl + shift + Down Arrow = Decrement numeric value
 //      ctrl + shift + P = Open command pallet and search
 //      ctrl + K ctrl + W = Close all active tab
+
+?>
+
