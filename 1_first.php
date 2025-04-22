@@ -31,5 +31,11 @@ Ideal : <php   ?>
 //      ctrl + shift + P = Open command pallet and search
 //      ctrl + K ctrl + W = Close all active tab
 
+
+/* Tips:
+        / = Forward Slash
+        \ = Backward Slash
+        ?> = PHP the tag close ne korleo hoy jodi na onno kono code file er moddhe na thake
+
 ?>
 
