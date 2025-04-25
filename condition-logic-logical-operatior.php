@@ -85,12 +85,13 @@ if($year %4 == 0 && ($year %100 != 0 || $year %400 == 0)){
     echo "{$year} is not a leap year";
 }
 
+echo "\n";
 
 
 /*** Nested condition & logic ***/
 
 $username = "abcd";
-$password = "1234";
+$password = "124";
 
 if($username == "abcd"){
     if($password == "1234"){
@@ -100,4 +101,16 @@ if($username == "abcd"){
     }
 }else {
     echo "invalid username";
+}
+
+echo "\n";
+
+/*** Nested condition & logic - another way ***/
+
+if($username == "abcd" && $password == "1234"){
+    echo "Hello User";
+}elseif($username != "abcd" && $password == "1234"){
+    echo "Invalid username";
+}elseif($username == "abcd" && $password != "1234"){
+    echo "Invalid password";
 }

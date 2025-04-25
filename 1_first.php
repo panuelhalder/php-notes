@@ -37,5 +37,5 @@ Ideal : <php   ?>
         \ = Backward Slash
         ?> = PHP the tag close ne korleo hoy jodi na onno kono code file er moddhe na thake
 
-?>
+*/
 
