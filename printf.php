@@ -47,7 +47,7 @@ printf("%07.2f",$y); // . soho total 7 ta ghor . er por 2 ta
 echo "\n";
 
 
-/* sprintf = value ta print na kore variable er moddhe return kore ba joma rakhe */
+/* *****  sprintf = value ta print na kore variable er moddhe return kore ba joma rakhe ********** */
 
 $output = sprintf("We are living on the %s", $name);
 
