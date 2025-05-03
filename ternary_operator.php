@@ -13,7 +13,7 @@ $n = 5;
 
 echo "\n";
 
-$numberCheck = ((($n ==12)? "twelve" : ($n == 10))? "Ten" : ($n == 5))? "FIve" : "A number";
+$numberCheck = ($n ==12)? "twelve" : ((($n == 10)? "Ten" : ($n == 5))? "FIve" : "A number");
 echo $numberCheck;
 
 echo " \n";

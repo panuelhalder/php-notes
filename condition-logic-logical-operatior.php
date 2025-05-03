@@ -11,12 +11,40 @@
 */
 
 $n = 13;
+$r = $n %2;
 
 if($n %2 == 0){
     echo "$n is even number" . "\n";
 }else{
     echo "$n is odd number" . "\n";
 };
+
+echo PHP_EOL;
+
+
+// Alternative syntax - PHP Condition: WordPress template e use kora hoy ei dhoroner syntax. 
+
+if($n %2 == 0):
+    echo "$n is even number"; // WordPress template e evabe lekha hoy
+else:
+    echo "$n is odd number";
+endif;
+
+echo PHP_EOL;
+
+// Alternative syntax - PHP Switch case: WordPress template e use kora hoy ei dhoroner syntax. 
+
+switch($r):
+    case 0:
+    echo "$n is even number";
+    break;
+    default:
+    echo "$n is odd number";    
+endswitch;        
+
+echo PHP_EOL;
+
+
 
 
 
@@ -114,3 +142,12 @@ if($username == "abcd" && $password == "1234"){
 }elseif($username == "abcd" && $password != "1234"){
     echo "Invalid password";
 }
+
+
+
+
+
+
+
+
+
