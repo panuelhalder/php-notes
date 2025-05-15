@@ -1,5 +1,6 @@
-<?php echo
-"hello world... form bangladesh I am shimul"; //echo for display anything on browser;
+<?php
+
+echo "hello world... form bangladesh I am shimul"; //echo for display anything on browser;
 
 $do_something = "do something";
 
@@ -39,3 +40,14 @@ Ideal : <php   ?>
 
 */
 
+echo PHP_EOL;
+
+$a = 1;
+$b = 2;
+$a = $b;
+
+echo $a;
+
+echo PHP_EOL;
+
+echo $b;
