@@ -2,180 +2,136 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>S86 Newsletter</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Panuel Halder - WordPress Developer</title>
   <style>
-    * {
-      box-sizing: border-box;
-    }
     body {
       margin: 0;
-      font-family: 'Inter', sans-serif;
-      background: #f4f4f4;
-      color: #333;
-      line-height: 1.6;
+      font-family: Arial, sans-serif;
+      background-color: #F4F4F4;
+      color: #2E2E2E;
     }
-    header {
-      background: #111;
+    header, section {
+      max-width: 1200px;
+      margin: auto;
+      padding: 60px 20px;
+    }
+    h1, h2, h3 {
+      color: #2E2E2E;
+      margin-bottom: 10px;
+    }
+    a.button {
+      background-color: #4A90E2;
       color: #fff;
-      padding: 40px 20px;
-      text-align: center;
-    }
-    header h1 {
-      font-size: 2.5rem;
-      margin-bottom: 10px;
-    }
-    header p {
-      font-size: 1.2rem;
-      color: #bbb;
-    }
-
-    .section {
-      background: #fff;
-      margin: 20px auto;
-      padding: 30px 20px;
-      max-width: 1000px;
-      border-radius: 8px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-    }
-
-    .section h2 {
-      color: #007b5e;
-      margin-bottom: 20px;
-    }
-
-    .quote {
-      font-style: italic;
-      border-left: 5px solid #ccc;
-      padding-left: 15px;
-      color: #444;
-    }
-
-    ul {
-      padding-left: 20px;
-    }
-
-    ul li {
-      margin-bottom: 10px;
-    }
-
-    .cta-button {
-      display: inline-block;
-      margin-top: 15px;
-      padding: 10px 20px;
-      background-color: #007b5e;
-      color: white;
+      padding: 12px 24px;
       text-decoration: none;
       border-radius: 5px;
-      font-weight: 600;
+      display: inline-block;
     }
-
-    .events {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 20px;
-    }
-
-    .event-card {
-      background: #f9f9f9;
-      border: 1px solid #ddd;
-      padding: 20px;
-      border-radius: 6px;
-      flex: 1 1 300px;
-    }
-
-    .event-card h3 {
-      margin-top: 0;
-      color: #333;
-    }
-
-    .fact {
-      background: #fcfcfc;
-      padding: 15px;
-      border-left: 5px solid #007b5e;
-      font-weight: 500;
-    }
-
-    footer {
-      background: #222;
-      color: #eee;
+    .hero {
       text-align: center;
-      padding: 20px;
-      font-size: 0.9rem;
     }
-
-    @media (max-width: 600px) {
-      .events {
-        flex-direction: column;
-      }
+    .hero img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #2E2E2E;
+    }
+    .about, .projects, .reviews, .blog, .contact {
+      background-color: #FFFFFF;
+      margin-bottom: 30px;
+      padding: 40px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .projects .cta, .blog .cta {
+      margin-top: 20px;
+    }
+    .reviews blockquote {
+      border-left: 4px solid #4A90E2;
+      padding-left: 10px;
+      margin: 10px 0;
+      font-style: italic;
+    }
+    form {
+      display: grid;
+      gap: 10px;
+    }
+    input, textarea {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      width: 100%;
+    }
+    input[type="file"] {
+      padding: 5px;
+    }
+    input[type="submit"] {
+      background-color: #4A90E2;
+      color: #fff;
+      border: none;
+      cursor: pointer;
     }
   </style>
 </head>
 <body>
 
-  <header>
-    <h1>Spill the Beans</h1>
-    <p>Trends, Updates and What’s New</p>
+  <header class="hero">
+    <img src="https://via.placeholder.com/150" alt="Panuel Halder">
+    <h1>Panuel Halder</h1>
+    <p>WordPress Developer | Webflow Expert | SEO Specialist</p>
+    <a class="button" href="#contact">Hire Me</a>
   </header>
 
-  <section class="section">
-    <h2>Straight From The Boss’s Desk</h2>
-    <p class="quote">
-      “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.”
-      <br><br>– Eran Mizrahi
-    </p>
+  <section class="about">
+    <h2>About Me</h2>
+    <p>Hi, I’m Panuel Halder — a passionate WordPress developer with expertise in crafting responsive, SEO-friendly websites. I work with tools like WordPress, Webflow, PHP, JavaScript, Elementor, WooCommerce, and more.</p>
+    <a class="button" href="Panuel_Halder_Resume.pdf" download>Download My Resume</a>
   </section>
 
-  <section class="section">
-    <h2>FIVE Recent Food Recalls That Never Made It</h2>
+  <section class="projects">
+    <h2>Recent Projects</h2>
     <ul>
-      <li>C&T Produce Recalls Peppered Dried Catfish</li>
-      <li>Custom Food Solutions Recalls 105,164 Pounds of Drunken Chicken</li>
-      <li>Common Sense Soap Recalls 33,899 Pounds of Beef Tallow</li>
-      <li>Listeria-Contaminated Shakes Recalled After 11 Deaths</li>
-      <li>Ice Cream Recall Elevated to FDA’s Deadliest Category</li>
+      <li>Business Website for Law Firm</li>
+      <li>Ecommerce Site with WooCommerce</li>
+      <li>Personal Blog Design</li>
     </ul>
-    <a href="#" class="cta-button">READ MORE +</a>
-  </section>
-
-  <section class="section">
-    <h2>Upcoming Trade Shows</h2>
-    <div class="events">
-      <div class="event-card">
-        <h3>IFT Trade Show</h3>
-        <p>At This Location</p>
-        <a href="#" class="cta-button">READ MORE +</a>
-      </div>
-      <div class="event-card">
-        <h3>EXPO West Show</h3>
-        <p>At This Location</p>
-        <a href="#" class="cta-button">READ MORE +</a>
-      </div>
-      <div class="event-card">
-        <h3>SupplySide West</h3>
-        <p>Another Location</p>
-        <a href="#" class="cta-button">READ MORE +</a>
-      </div>
+    <div class="cta">
+      <a class="button" href="#contact">New Project in Mind? Let’s Talk</a>
     </div>
   </section>
 
-  <section class="section">
-    <h2>Start Your Sourcing Journey</h2>
-    <p>Wording that encourages visitors to explore sourcing services with S86. Let’s help you connect the dots in M&A, FFSQA, sourcing, and more.</p>
-    <a href="#" class="cta-button">SPEAK TO ONE OF OUR CONSULTANTS +</a>
+  <section class="reviews">
+    <h2>Client Reviews</h2>
+    <blockquote>“Panuel transformed our online presence — highly recommended!”</blockquote>
+    <blockquote>“Delivered fast, great communication, and fantastic design.”</blockquote>
   </section>
 
-  <section class="section">
-    <div class="fact">
-      <strong>Random Fact!</strong><br>
-      If not editable in Mailchimp with this unique background, this can be a Canva template saved as an image.
+  <section class="blog">
+    <h2>Recent Blog Posts</h2>
+    <ul>
+      <li><a href="#">How to Secure Your WordPress Website</a></li>
+      <li><a href="#">Top 10 Plugins I Use on Every Project</a></li>
+      <li><a href="#">Speed Optimization Tips for WordPress</a></li>
+    </ul>
+    <div class="cta">
+      <a class="button" href="#contact">Want to Collaborate on Content?</a>
     </div>
   </section>
 
-  <footer>
-    www.source86.com | info@source86.com
-  </footer>
+  <section class="contact" id="contact">
+    <h2>Contact Me</h2>
+    <p>Address: 123 Developer Lane, Dhaka, Bangladesh</p>
+    <p>Phone: +880 1234-567890</p>
+    <form>
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+      <input type="file" name="attachment" />
+      <input type="submit" value="Send Message" />
+    </form>
+  </section>
 
 </body>
 </html>
